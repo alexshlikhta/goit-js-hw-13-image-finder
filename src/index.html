@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Homework 12</title>
+		<title>Homework 13</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
@@ -11,7 +12,22 @@
 			crossorigin="anonymous"
 		/>
 	</head>
-	<body class="p-home">
+	<body>
+		<form class="search-form" id="search-form">
+			<input type="text" name="query" autocomplete="off" placeholder="Search images..." />
+			<button type="submit">Search</button>
+		</form>
+
+		<ul class="gallery" id="gallery"></ul>
+
+		<div class="load">
+			<button type="button" class="load-more" data-action="load-more">
+				<span class="spinner-border spinner-border-sm spinner is-hidden" role="status" aria-hidden="true"></span>
+
+				<span class="label">Load more</span>
+			</button>
+		</div>
+
 		<script src="./index.js" defer></script>
 	</body>
 </html>
