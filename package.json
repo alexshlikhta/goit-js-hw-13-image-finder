@@ -1,30 +1,31 @@
 {
-  "name": "goit-js-hw-12-countries",
+  "name": "goit-js-hw-13-image-finder",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://alexshlikhta.github.io/goit-js-hw-12-countries",
+  "homepage": "https://alexshlikhta.github.io/goit-js-hw-13-image-finder",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-12-countries/",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-13-image-finder/",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexshlikhta/goit-js-hw-12-countries.git"
+    "url": "git+https://github.com/alexshlikhta/goit-js-hw-13-image-finder.git"
   },
   "keywords": [],
   "author": "Alex shlikhta <alexshlikhta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alexshlikhta/goit-js-hw-12-countries/issues"
+    "url": "https://github.com/alexshlikhta/goit-js-hw-13-image-finder/issues"
   },
   "devDependencies": {
     "pnotify": "^5.2.0",
     "sass": "^1.43.4"
   },
   "dependencies": {
+    "basiclightbox": "^5.0.4",
     "debounce": "^1.2.1",
     "gh-pages": "^3.2.3",
     "handlebars": "^4.7.7",
